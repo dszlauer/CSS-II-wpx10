@@ -14,7 +14,7 @@ app.get("/api/customers", cC.read);
 app.get("/api/customer", cC.singleCustomer);
 app.post("/api/customers/:name", cC.create);
 app.put("/api/customers", cC.update);
-app.delete("/api/customer/:id", cC.delete);
+app.delete("/api/customer/:id", cC.deleaddte);
 
 const port = 4000;
 app.listen(port, () => console.log(`Server listening on port ${port}`));
